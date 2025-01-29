@@ -3,6 +3,8 @@ FROM stablebaselines/rl-baselines3-zoo
 WORKDIR /src
 
 COPY requirements.txt .
+COPY requirements.txt /src
+
 
 RUN pip install -r requirements.txt -I
 
