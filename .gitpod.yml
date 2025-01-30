@@ -4,8 +4,8 @@ image:
 tasks:
   - init: pip install -r requirements.txt
     command: |
-     python3 /workspace/FinRL/finrl/main.py
      python3 /workspace/FinRL/setup.py build
      python3 /workspace/FinRL/shioajidownloader.py build
+     example_of_shioaji_api.py build
 
     
