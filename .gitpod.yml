@@ -2,4 +2,7 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
+  - name: Terminal 1
+    before: echo "[INFO] This is Terminal 1"
   - init: pip install -r requirements.txt
+
