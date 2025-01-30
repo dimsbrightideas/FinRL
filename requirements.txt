@@ -30,7 +30,7 @@ recommonmark
 scikit-learn>=0.21.0
 
 selenium
-
+shioaji
 # packaging
 #setuptools>=41.4.0
 setuptools>=65.5.0
